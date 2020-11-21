@@ -6,7 +6,7 @@ docker build -t myimage .
 
 ## run container
 
-docker run -d --name mycontainer -p 80:80 myimage
+docker run -d --name mycontainer -p 8080:8080 myimage 
 
 ## delete stop container
 
