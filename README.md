@@ -1,5 +1,9 @@
 # fastapi-docker
 
+## run no docker
+
+uvicorn main:app --reload --port 8080
+
 ## create image
 
 docker build -t myimage .
